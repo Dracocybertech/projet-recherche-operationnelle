@@ -1,21 +1,21 @@
 #GrapheDuReseau
 18 s
-D M2 V R M1 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 
-D 2 M2 s1
-M2 1 D
-V 2 s4 s5
-R 2 s11 s5
-M1 2 s5 s7
-s1 2 s2 D
-s2 3 s3 s1 s11
-s3 3 s2 s5 s4
-s4 3 s3 s5 V
-s5 3 s3 s4 s6
-s6 3 s5 s7 s8
-s7 2 s6 s9
-s8 3 s12 s6 s9
-s9 3 s8 s7 s11
-s10 3 R V M1
-s11 4 R s9 s2 s13
-s12 3 s8 s13 M1
-s13 2 s11 s12
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 D M2 V R M1 
+D 2 M2 47 s1 13
+M2 1 D 47
+V 2 s4 38 s10 46
+R 2 s11 10 s10 47
+M1 2 s10 60 s12 36
+s1 2 s2 18 D 13
+s2 3 s3 5 s1 18 s11 64
+s3 3 s2 5 s5 11 s4 27
+s4 3 s3 27 s5 38 V 38
+s5 3 s3 11 s4 38 s6 12
+s6 3 s5 12 s7 15 s8 30
+s7 2 s6 15 s9 30
+s8 3 s12 45 s6 30 s9 15
+s9 3 s8 15 s7 30 s11 8
+s10 3 R 47 V 46 M1 60
+s11 4 R 10 s9 8 s2 64 s13 22
+s12 3 s8 45 s13 10 M1 36
+s13 2 s11 22 s12 10

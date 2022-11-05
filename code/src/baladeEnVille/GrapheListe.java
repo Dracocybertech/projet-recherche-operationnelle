@@ -189,8 +189,7 @@ public class GrapheListe extends Graphe {
                         Sommet t = new Sommet(scan.next(), 0);
                         int ti = G.numerotation.numero(t);
                         if (estValue) {
-                            G.ajouterArc(si, ti,
-                                    (int) scan.nextInt());
+                            G.ajouterArc(si, ti, (int) scan.nextInt());
                         } else {
                             G.ajouterArc(si, ti, 1);
                         }
@@ -203,10 +202,8 @@ public class GrapheListe extends Graphe {
             {
                 for (Sommet s : G.sommets()) {
                     for (Sommet t : G.sommets()) {
-                        if (G.existeArc(s, t)
-                                && !G.existeArc(s, t)) {
-                            G.ajouterArc(s, t,
-                                    G.valeurArc(s, t));
+                        if (G.existeArc(s, t) && !G.existeArc(s, t)) {
+                            G.ajouterArc(s, t, G.valeurArc(s, t));
                         }
                     }
                 }
