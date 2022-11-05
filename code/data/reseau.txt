@@ -1,5 +1,5 @@
 #GrapheDuReseau
-18 s
+18 v
 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 D M2 V R M1 
 D 2 M2 47 s1 13
 M2 1 D 47
