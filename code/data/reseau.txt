@@ -1,11 +1,11 @@
 #GrapheDuReseau
 18 v
-s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 D M2 V R M1 
+D M1 M2 V R s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 
 D 2 M2 47 s1 13
+M1 2 s10 60 s12 36
 M2 1 D 47
 V 2 s4 38 s10 46
 R 2 s11 10 s10 47
-M1 2 s10 60 s12 36
 s1 2 s2 18 D 13
 s2 3 s3 5 s1 18 s11 64
 s3 3 s2 5 s5 11 s4 27
